@@ -193,6 +193,10 @@ footer {
   -moz-border-radius:150px;
 }
 
+.job-title {
+	margin-bottom:0;
+}
+
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
