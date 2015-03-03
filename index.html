@@ -20,6 +20,37 @@
         
         <script type="text/javascript" async="" src="./frontjet_files/watch.js"></script><script async="" src="./frontjet_files/analytics.js"></script><script src="./frontjet_files/modernizr-2.6.2-respond-1.1.0.min.js"></script><style type="text/css"></style>
 
+        <style type="text/css">
+        html, body { overflow-x: hidden; }
+        .card:hover {
+        	cursor: pointer;
+        	box-shadow: 1px 1px 30px black;
+        	margin: 14px;
+        	width: 31%;
+        }
+        .card {
+	        width: 30%;
+			display: inline-block;
+			margin: 20px;
+			transition: box-shadow 0.25s, margin 0.25s, width 0.25s;
+		}
+		.card-header {
+			background: url(http://www.placehold.it/200x150);
+			background-position: center;
+			border-bottom: 1px solid #ddd;
+			border-radius: 6px 6px 0 0;
+			height: 150px;
+		}
+		.card-body {
+			background: white;
+			border-radius: 0 0 6px 6px;
+			height: 200px;
+			padding: 20px;
+			text-align: center;
+			padding: 20px;
+		}
+        </style>
+
     </head>
     <body>
         <!-- <header>
@@ -34,26 +65,11 @@
 			<div class="container">
 				<img src="https://avatars0.githubusercontent.com/u/578621?v=3&s=460" style="border-radius:50%" width="100">
 				<br>
-				<!-- <div class="subtitle">we are</div> -->
 				<div class="title">Alexander <img src="./frontjet_files/ee.svg" alt=""> Vallorosi</div>
-				<!-- <ul class="our-heads">
-					<li><img src="./frontjet_files/mes.svg" alt=""></li>
-					<li><img src="./frontjet_files/gegh.svg" alt=""></li>
-					<li><img src="./frontjet_files/art.svg" alt=""></li>
-					<li><img src="./frontjet_files/ars.svg" alt=""></li>
-					<li><img src="./frontjet_files/narek.svg" alt=""></li>
-					<li><img src="./frontjet_files/marina.svg" alt="" class="marina"></li>
-					<li><img src="./frontjet_files/alex.svg" alt=""></li>
-					<li class="visible-sm"></li>
-					<li><img src="./frontjet_files/aram.svg" alt=""></li>
-					<li><img src="./frontjet_files/lora.svg" alt=""></li>
-					<li><img src="./frontjet_files/petros.svg" alt=""></li>
-					<li><img src="./frontjet_files/arsm.svg" alt=""></li>
-				</ul> -->
 				<div class="welcome-text">Committed to <b>Freedom</b> &amp; <b>Computer Science</b></div>
 				<div class="home-fj-description">
 					Scroll down to see more about me! <br>
-					<span class="icon-jet"></span>
+					<!-- <span class="icon-jet"></span> -->
 				</div>
 			</div>
 		</div>
@@ -149,13 +165,38 @@
 			</div>
 		</div>
 		
-		<div class="our-skills-container" style="background-color:blue">
-			<h2><span class="subtitle">my</span> <span class="title">Future</span></h2>
+		<div style="background:url(code.png);background-size:contain;height:800px;text-align:center">
+			<h2 style="color: white;padding-top:40px;font-size:48px;font-weight:600">
+				<span style="font-size:30px;font-weight:300">My</span> Projects</h2>
+			<div class="card">
+				<section class="card-header"></section>
+				<section class="card-body">
+					<h1>Project Name</h1>
+				</section>
+			</div>
+			<div class="card">
+				<section class="card-header"></section>
+				<section class="card-body">
+					<h1>Project Name</h1>
+				</section>
+			</div>
+			<div class="card">
+				<section class="card-header"></section>
+				<section class="card-body">
+					<h1>Project Name</h1>
+				</section>
+			</div>
+			<div class="card">
+				<section class="card-header"></section>
+				<section class="card-body">
+					<h1>Project Name</h1>
+				</section>
+			</div>
 		</div>
 		<div class="feedbacks-section">
 			<div class="projects-section-bottom"></div>
 			<div class="container">
-				<h2><span class="subtitle">Our</span> <span class="title">Philosophy</span></h2>
+				<h2><span class="subtitle">Work</span> <span class="title">Experience</span></h2>
 				<p>	We believe that our work should always be derived from people’s problems and our aim is to draw a meaningful conclusion from each phase.</p>
 
 				<p>We are social, so don’t hesitate to ask whatever you want! <br>
@@ -211,12 +252,6 @@
 			</ul>
 		</div>
 	</div>
-	
-
-	
-
-	
-<!-- home modals -->
 
 <div class="modal fade hidden-xs" id="projectsModal" role="dialog" aria-hidden="true">
 	<div class="home-projects-slider modal-dialog">
