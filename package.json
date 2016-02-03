@@ -1,0 +1,32 @@
+{
+  "name": "ca.github.io",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ca/ca.github.io.git"
+  },
+  "author": "Alexander Vallorosi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ca/ca.github.io/issues"
+  },
+  "homepage": "https://github.com/ca/ca.github.io#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "browserify": "^11.2.0",
+    "cookie-parser": "^1.4.0",
+    "debug": "^2.2.0",
+    "express": "^4.13.3",
+    "express-react-views": "^0.8.2",
+    "morgan": "^1.6.1",
+    "node-jsx": "^0.13.3",
+    "path": "^0.12.7",
+    "react": "^0.13.3"
+  }
+}
